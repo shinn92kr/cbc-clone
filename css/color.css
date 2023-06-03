@@ -1,0 +1,10 @@
+:root {
+    --grey: #71695f;
+    --red: #e60505;
+    --light-grey: #e5e5e5;
+    --light-black: #1a1919;
+    --black: #000000;
+}
+.l-grey-box {
+    background-color: var(--light-grey);
+}

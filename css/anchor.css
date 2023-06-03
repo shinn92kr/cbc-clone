@@ -1,0 +1,98 @@
+a,
+a:visited {
+    color: #0550c8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+a:focus,
+a:active {
+    box-shadow: none;
+    outline: none;
+    border: 3px solid #0550c8;
+}
+
+/* Header anchor - top box */
+.top-header-box--menu-box-anchor-wrap p,
+.top-header-box--menu-box-anchor-wrap i {
+    color: red;
+}
+.top-header-box--menu-box-anchor-wrap:hover p {
+    color: black;
+    text-decoration: none;
+}
+.top-header-box--menu-box-anchor-wrap:hover i {
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.top-header-box--child-box:last-child a,
+.top-header-box--child-box:last-child a:visited {
+    color: grey;
+    font-weight: bold;
+}
+
+.top-header-box--child-box:last-child a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+/* Header anchor - bottom box */
+.btm-header-box--child-box:first-child a,
+.btm-header-box--child-box:first-child a:visited {
+    color: black;
+    font-weight: bold;
+}
+
+.btm-header-box--child-box:first-child a:first-child,
+.btm-header-box--child-box:first-child a:first-child:visited {
+    color: red;
+}
+
+.btm-header-box--child-box:last-child a,
+.btm-header-box--child-box:last-child a:visited {
+    color: black;
+}
+.btm-header-box--child-box:last-child a:hover {
+    text-decoration: none;
+}
+.btm-header-box--child-box:last-child a:hover i {
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+}
+
+/* Footer anchor */
+#cbc-gem-anchor,
+#cbc-gem-anchor:visited {
+    border-bottom: 2px solid grey;
+}
+
+#cbc-gem-anchor:hover {
+    text-decoration: none;
+    background-color: grey;
+}
+#cbc-gem-anchor:focus,
+#cbc-gem-anchor:active {
+    text-decoration: none;
+    background-color: grey;
+}
+
+.btm-footer--img-box a,
+.btm-footer--img-box a:visited,
+.btm-footer--img-box a:hover,
+.btm-footer--img-box a:focus,
+.btm-footer--img-box a:active {
+    text-decoration: none;
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+
+.btm-footer--radio-box a,
+.btm-footer--radio-box a:visited {
+    color: white;
+}

@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@400;800&family=Open+Sans&display=swap");
+
+body {
+    margin: 0;
+    line-height: 1.35;
+    font-family: "Open Sans", "sans-serif";
+}
+.special-font {
+    font-family: "Bitter", serif;
+}
+main {
+    display: block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+}
+h1 {
+    font-size: 1.5em;
+}
+p {
+    font-size: 1em;
+}
+b,
+strong {
+    font-weight: bold;
+}
+
+small {
+    font-size: 80%;
+}
+
+img {
+    border-style: none;
+    display: block;
+}
