@@ -1,0 +1,20 @@
+@import url(./reset.css);
+@import url(./normalize.css);
+@import url(./layout.css);
+@import url(./anchor.css);
+@import url(./color.css);
+@import url(./responsive.css);
+
+img {
+    width: 100%;
+}
+
+#cbc-icon {
+}
+
+.smallest-font {
+    font-size: 0.5em;
+}
+.txt-box--tag {
+    text-transform: uppercase;
+}
